@@ -155,6 +155,7 @@ global > variables
 ------------------------------*/
 :root {
   /* color */
+
   --color-base: #333333;
   --color-base-light: #242424;
   --color-main: #22529D;
