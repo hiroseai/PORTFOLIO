@@ -571,6 +571,7 @@ component > title
   .p-works__desc {
     font-size: 1rem;
     margin-bottom: 0.625rem;
+    line-break: strict;
   }
 }
 
