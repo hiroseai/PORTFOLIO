@@ -527,7 +527,26 @@ component > title
   }
 }
 
+.p-works__item {
+  padding: 1rem;
+  border: 2px solid var(--color-black);
+}
+
+@media (min-width: 768px) {
+  .p-works__item--wide {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .p-works__item-wp-wrapper {
+    display: flex;
+    gap: 1.875rem;
+  }
+}
+
 .p-works__image {
+  width: 100%;
   margin-bottom: 0.5rem;
 }
 
@@ -535,6 +554,24 @@ component > title
   .p-works__image {
     margin-bottom: 1rem;
   }
+}
+
+.p-works__item-wp-image {
+  width: 100%;
+}
+
+.p-works__item-wp-desc {
+  font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .p-works__item-wp-desc {
+    font-size: 1rem;
+  }
+}
+
+.p-works__item-wp-desc span {
+  display: block;
 }
 
 .p-works__name {
@@ -548,6 +585,8 @@ component > title
     margin-bottom: 0.625rem;
   }
 }
+
+
 
 .p-works__category {
   font-size: 0.875rem;
